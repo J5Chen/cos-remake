@@ -1,7 +1,7 @@
 {
   "name": "cos_remake",
   "private": true,
-  "homepage": "https://gitname.github.io/cos-remake",
+  "homepage": "https://github.com/J5Chen/cos-remake",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "masonry-layout": "^4.2.2",
