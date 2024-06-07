@@ -9,11 +9,11 @@ function MobilePopNav({ onClick, updatePortal, updateFilter }) {
                     X
                 </div>
                 <div className={styles.vnav}>
-                    <div>
-                        <p onClick={() => { updatePortal('Products'); updateFilter('men') }}>Men</p>
+                    <div onClick={() => { updatePortal('Products'); updateFilter('men') }}>
+                        <p>Men</p>
                     </div>
-                    <div>
-                        <p onClick={() => { updatePortal('Products'); updateFilter('women') }}>Women</p>
+                    <div onClick={() => { updatePortal('Products'); updateFilter('women') }}>
+                        <p >Women</p>
                     </div>
                 </div>
             </div>

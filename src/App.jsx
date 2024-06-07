@@ -51,6 +51,7 @@ function App() {
   const updateFilter = (filter) => {
     setCategory('')
     setFilter(filter)
+    console.log(filter)
   }
 
   const updateCategory = (category) => {

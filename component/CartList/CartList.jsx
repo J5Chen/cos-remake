@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './CartList.module.css';
 
 function CartList({ cartItems, removeCart, clearCart, updatePortal }) {
