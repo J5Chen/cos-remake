@@ -1,0 +1,51 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    font-size: 3vw;
+}
+
+.cartItem {
+    margin: 1rem 1em 0em 0.2em;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+}
+
+p {
+    margin: 1em 1em;
+}
+
+button {
+    height:clamp(10px, 12vw, 150px);
+    background-color: white;
+    outline: black solid 0.1rem;
+    padding: 0.1rem 3rem;
+    text-align: center; 
+    width: clamp(10px, 8vw, 800px);
+    font-size: 3vw;
+}
+
+.cartView {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.checkout {
+    width: clamp(50px, 70%, 800px);
+    align-self: center;
+    margin: 1rem 1em 0em 0.2em;
+    height:clamp(10px, 12vw, 150px);
+    font-size: 4vw;
+}
+
+.empty{
+    font-size: 8vw;
+}
+
+.buttonDiv{
+    display: flex;
+}

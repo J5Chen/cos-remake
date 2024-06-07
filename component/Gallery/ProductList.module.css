@@ -1,0 +1,43 @@
+.grid {
+    max-width:70vw;
+    margin: 0 auto;
+    display: column;
+    columns: 3;
+    gap: 5em;
+    margin-top: 1em;
+}
+
+.gridItem {
+    margin-bottom: 1em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    break-inside: avoid;
+    align-items: center;
+}
+
+.image {
+    width: clamp(100px, 20vw, 500px)
+}
+
+.button {
+    background-color: white;
+    outline: black solid 0.1em;
+    position: absolute;
+    top: 75%;
+    font-size: 2vw;
+    text-align: center;
+    width: 9vw;
+    height: 3vw;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        columns: 2;
+        gap: 1em;
+
+    }
+    .button {
+        height: 20px;
+    }
+}

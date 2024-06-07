@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    background-color: black;
+    padding: 0.6rem 0;
+    width: 100%;
+    font-size: clamp(0.7rem, 3vw, 1rem);
+    justify-content: center;
+    letter-spacing: .04em;
+}
+
+.banner > * {
+    margin: 0 0.1rem;
+    color: white;
+}

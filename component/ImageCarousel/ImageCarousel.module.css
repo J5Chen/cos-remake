@@ -1,0 +1,33 @@
+.imageCarousel {
+    width: 100%;
+    margin-top: 0.5rem;
+    position: relative;
+    align-items: center;
+}
+
+img {
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.buttonDiv > a {
+    text-align: center;
+    padding: 0.2em 0.4em; 
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: clamp(1.1rem, 3vw, 10rem);
+    max-width: 100%;
+    width: 100%; 
+    box-sizing: border-box; 
+}

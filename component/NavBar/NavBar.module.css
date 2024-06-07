@@ -1,0 +1,69 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0.6rem;
+    height: clamp(3rem, 5vw, 150px);
+    z-index: 1;
+}
+
+.navBar>* {
+    padding: 0.7rem;
+    font-size: clamp(16px, 2vw, 100px);
+}
+
+.navBar>:nth-child(2) {
+    flex: 1;
+    padding: 0px;
+}
+
+.popup {
+    background-color: white;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    inset: 0 10% 0 0;
+    display: none;
+}
+
+.vnav {
+    margin: 1.5rem;
+}
+
+.vnav>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.cart {
+    position: relative;
+}
+
+.counter {
+    position:absolute;
+    top: -70px;
+    color: red;
+    left: 20px;
+}
+
+@media(min-width:1000px) {
+    .navBar {
+        padding: 0.6rem 10%;
+    }
+
+    .navBar>* {
+        padding: 0.7rem;
+        font-size: 60px;
+    }
+
+    svg {
+        height: 60px;
+        width: 120px;
+    }
+
+}

@@ -1,0 +1,38 @@
+.popup {
+    background-color: white;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    inset: 0 10% 0 0;
+}
+
+.vnav {
+    margin: 1.5rem;
+}
+.navbar > *{
+    font-size: 10em;
+}
+.vnav>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.vnav>div:hover {
+    background-color: lightgray;
+}
+
+.close {
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 800px) {
+    .popup{
+        inset: 0 60% 0 0;
+    }
+}
