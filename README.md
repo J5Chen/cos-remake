@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Remake of COS site.
 
-Currently, two official plugins are available:
+#Desktop
+![Cos_Desktop](https://github.com/J5Chen/cos-remake/assets/118089167/51d3d462-bed0-459e-a1c1-13d2de290494)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Mobile
+![Cos_Mobile](https://github.com/J5Chen/cos-remake/assets/118089167/fd00df75-9dff-4c68-b10c-dc25dcb059eb)
